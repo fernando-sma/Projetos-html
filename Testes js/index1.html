@@ -1,0 +1,40 @@
+
+
+<!--
+
+<html>
+    <body>
+    
+    <p>A script on this page starts this clock:</p>
+    
+    <p id="demo"></p>
+    
+    <script>
+    var ar = setInterval(myTimer, 2000);
+    
+    function myTimer() {
+        var d = new Date();
+        var n = d.getTime();
+        document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+    }
+    </script>
+    
+    </body>
+    </html>
+    
+-->
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    
+    var d = new Date();
+    var n = d.getTime();
+    document.getElementById("demo").innerHTML = n;
+}
+</script>
+
+</body>

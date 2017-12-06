@@ -1,0 +1,9 @@
+create table animais(
+nome varchar(30),
+idade int (3),
+especie varchar(30),
+id int auto_increment,
+primary key(id)
+
+
+);

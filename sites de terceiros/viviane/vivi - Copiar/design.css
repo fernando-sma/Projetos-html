@@ -1,0 +1,12 @@
+body{
+	 background:#DAA520;
+}
+.form-control{
+
+	width: 25%;
+	height: 25px;
+}
+label{
+	text-align: center;
+}
+

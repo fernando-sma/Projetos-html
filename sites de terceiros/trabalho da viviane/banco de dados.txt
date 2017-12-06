@@ -1,0 +1,9 @@
+criando a tabela :
+create table produtos (
+id int auto_increment ,
+nome varchar (30),
+qtd int (5),
+preco float (5),
+primary key (id)
+);
+

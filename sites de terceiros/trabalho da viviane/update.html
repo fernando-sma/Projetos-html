@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edição</title>
+</head>
+<body bgcolor="DarkRed">
+<h1><center><b>Edite Um Produto no Banco de Dados</b></center></h1>
+<img src = "logo.png">
+
+<meta charset = "utf-8">
+
+<form method="post" action="update.php">
+<h3><i>
+	Digite o ID do Produto:
+	<input type = "Number" name = "id"><br>
+Digite o novo Nome do Produto:
+<input type="text" name="nome" placeholder = "Nome do Produto" maxlength="30"><br>
+
+Digite a nova Quantidade:
+<input type="number" name="qtd" placeholder = "Qtd" max = "999" min = "0"><br>
+
+Digite o novo Preço que ele vai custar :
+<input type="float" name="preco" placeholder = "Preço da Mercadoria" max="99999"><br>
+</h3></i>
+<input type = "submit" value="EDITAR" onclick="alert('Você deseja Realmente Editar esse item?')"><br>
+
+	
+
+
+
+</form>
+</body>
+</html>

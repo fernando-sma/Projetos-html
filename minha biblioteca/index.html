@@ -1,0 +1,42 @@
+
+<!--
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha biblioteca</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="../b/css/bootstrap.min.css">
+	<script type="text/javascript" href="../b/js/jquery.js"></script>
+	<center><h3>Seja bem vindo ao minha biblioteca, aqui você poderá criar arquivos de texto seguros e armazenados na nuvem</h3></center>
+	<hr>
+	<form action="conferirDados.php" method="POST">
+		<fieldset>
+			<legend>Login</legend>
+			<input type="text" name="nome" placeholder = "Nome do usuário" class="form-control"><br>
+			<input type="password" name="senha" placeholder="Senha"  class="form-control">
+			<a href="cadastro.html"> Se você ainda não possui uma conta clique aqui</a>
+			<center><input type="submit" value="entrar" class="btn btn-success"></center>
+		</fieldset>
+	</form>
+
+</body>
+</html>
+
+-->
+
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+
+	<div ng-app="">
+		
+		<p>Name: <input type="text" ng-model="name"></p>
+		<p>You wrote: {{ name }}</p>
+		
+		</div>
+</body>
+</html>
